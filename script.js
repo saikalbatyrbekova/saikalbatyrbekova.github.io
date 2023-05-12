@@ -12,3 +12,10 @@ if (close) [
         nav.classList.remove('active');
     })
 ]
+
+$('.like-btn').on('click', function() {
+    $(this).toggleClass('is-active');
+ });
+ 
+
+ 
