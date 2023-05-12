@@ -29,6 +29,7 @@ body {
     font-size: 30px;
     font-weight: bold;
     color: white;
+    text-decoration: none;
 }
 .cart {
     display: flex;
@@ -177,4 +178,12 @@ button:hover{
 .fa-trash{
     cursor: pointer;
     color: #333;
+}
+@media (max-width: 418px) {
+    #root{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .cart-item{
+        flex-direction: column;
+    }
 }
