@@ -29,6 +29,7 @@ body {
     font-size: 30px;
     font-weight: bold;
     color: white;
+    text-decoration: none;
 }
 .cart {
     display: flex;
