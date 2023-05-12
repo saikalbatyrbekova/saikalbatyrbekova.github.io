@@ -179,6 +179,7 @@ button:hover{
     cursor: pointer;
     color: #333;
 }
+
 @media (max-width: 418px) {
     #root{
         grid-template-columns: repeat(1, 1fr);
